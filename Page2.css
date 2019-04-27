@@ -1,0 +1,45 @@
+
+h3{
+	margin-top:100px;
+}
+
+.form-group{
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.content{
+	text-align: center;
+	margin:0 auto;
+	width:45%;
+}
+ 
+body{
+text-align: center;
+font-size: 20px;
+}
+
+input[type=submit]{
+
+	background-color: lightgreen;
+	width: 75px;
+	height: 30px;
+	font-size: 15px;
+	margin-bottom:100px;
+	margin-right: 100px;
+
+}
+
+.button{
+	background-color: lightblue;
+	width: 75px;
+	height: 30px;
+	font-size: 15px;
+	margin-top:-150px;
+	margin-left:100px;
+
+}
+
+label{
+	width:140px;
+}
