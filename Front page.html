@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tech Inn</title>
+
+  <head>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="../../public/javascripts/ajax.js"></script>
+</head>
+</head>
+
+<body>
+	<style> 
+  		body {background:url("teamwork.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position: relative;
+       position: relative;
+  			text-align:center;
+  			font-size:35px;
+  			}
+  			.logo1{float:right;
+               width:8%;
+              position:absolute;
+              top:10px;
+              left:1600px;
+              }
+
+
+  			.container{background-color: whitesmoke;
+    height: 500px;
+    opacity: 0.8;}
+
+        #remember-me{font-size:25px;}
+        .submit{font-size: 20px;
+                background-color:white;
+                padding:7px;
+                border-radius:10px;}
+        .c{color:#119089;}
+        
+        .menu{left:60px;
+              width: 30px;
+              height: 5px;
+              background-color:black;
+              margin: 6px 0;
+              }
+        
+	</style>
+
+  <image  class="logo1" src="logo.png" alt="logo">
+  
+    <div class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div>
+  
+
+  <br>
+  <br>
+  <br>
+
+  <div  id="login">
+        <div  class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 id="login" class="text-center text-info">Login</h3>
+                            
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username:</label>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <br>
+                            
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label>
+                                <input type="text" name="password" id="password" class="form-control">
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                <label  for="remember-me" class="text-info" id="remember-me"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label>
+                                </div>
+                              <br>
+                                
+                                <input  type="button" name="submit" id="login-btn" value="login">
+                            <br>
+                            <br>
+                           
+                            <div id="register-link" class="text-right">
+                                <a href="Page2.html" class="c">Register here</a>
+                            </div>
+                        </form>
+                           
+                    </div>
+                </div>
+            </div>
+         </div>
+  </div>
+</body>
+
+</html>
