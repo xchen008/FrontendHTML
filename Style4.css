@@ -2,45 +2,91 @@ body {
   background-color: lightblue;
 }
 
-# user {
+#Main {
+  text-align: center;
+  font-size: 50px;
 
 }
 
-# skills {
-
+#ProjHead{
+  text-align: center;
+  font-size: 32px;
 }
 
-# experience {
-
+#Web{
+  text-align: center;
 }
 
-# events {
-
-}
-
-img {
-	width:270px;
-	height:270px;
-	border-radius:8px;
-	float: left;
-}
-
-.content {
+.Proj {
   color: black;
-  text-align: left;
-  min-width: 65%;
+  /*background-color: lightgreen;*/
+  background-color: white;
+  min-width: 43%;
   display: inline-block;
   float: left;
   padding: 30px;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: 20px;
+  box-shadow: 5px 10px #888888
+} 
+
+.Resource {
+  color: black;
+  /*background-color: #F08080;*/
+  background-color: white;
+  min-width: 43%;
+  display: inline-block;
+  float: left;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+  box-shadow: 5px 10px #888888
+} 
+
+.Bootcamp {
+  color: black;
+  /*background-color: #FF7F50;*/
+  background-color: white;
+  display: inline-block;
+  min-width: 28%;
+  float: left;
+  padding: 30px;
+  margin-right:60px;
+  margin-top: 60px
+  margin-bottom:20px;
+  box-shadow: 5px 10px #888888
+} 
+.Event {
+  color: black;
+  display: inline-block;
+  /*background-color: #BC8F8F;*/
+  background-color: white;
+  min-width: 28%;
+  float: left;
+  padding: 30px;
+  margin-right:80px;
+  margin-top: 30px;
+  box-shadow: 5px 10px #888888
 } 
 
 
-.backgroundinfo {
-	background-color: white;
-	text-align: left;
-  	min-width: 60%;
-  	padding: 20px;
-  	float: right;
+.linkbtn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
+a{
+
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
