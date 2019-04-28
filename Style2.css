@@ -3,6 +3,12 @@ h3{
 	margin-top:100px;
 }
 
+#heading{
+
+	margin-bottom: -5px;
+	margin-top: 0px;
+}
+
 .form-group{
 	margin-bottom: 10px;
 	text-align: left;
@@ -25,27 +31,32 @@ input[type=submit]{
 	width: 75px;
 	height: 30px;
 	font-size: 15px;
-	margin-bottom:100px;
-	margin-right: 430px;
+	margin-top: 10px;
+	margin-bottom:80px;
+
 
 }
 
-.button{
+input[type=button]{
 	background-color: lightblue;
-	width: 75px;
-	height: 30px;
-	font-size: 15px;
-	margin-top:-151px;
-	margin-right:180px;
+	margin-right: 190px;
+	height: 40px;
+	width: 240px;
+	margin-left: 195px;
+	font-size: 20px;
+	margin-top: 120px;
+
 
 }
+
 
 label{
 	width:140px;
 }
 
 #cancel{
-  font: bold 11px Arial;
+  font: bold 15px Arial;
+  font-size: 15px;
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
@@ -54,4 +65,10 @@ label{
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+  	width: 90px;
+	height: 40px;
+	font-size: 15px;
+	margin-top:-200px;
+	margin-right: 310px;
+
 }

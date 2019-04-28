@@ -2,13 +2,17 @@
 <html>
 <head>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="../../public/stylesheets/style.css">
+<!--<link rel="stylesheet" type="text/css" href="../../public/stylesheets/style.css">-->
+<link rel="stylesheet" type="text/css" href="Style2.css">
 <script src="../../public/javascripts/ajax.js"></script>
 </head>
 
 
 <body>
-<h3> New User Sign up </h3>
+
+
+<input type="button" name="a" value="Sign Up with LinkedIn" id="LinkedIn" >
+<h3 id = "heading"> New User Sign Up </h3>
 
 <div class = "content">
 
@@ -17,7 +21,7 @@
   <table>
 <!-- Text input-->
 <tr>
-  <td><label class="text-info" for="textinput">Full Name <span>:</span> </label></td>  
+  <td><label id = "name" class="text-info" for="textinput">Full Name <span>:</span> </label></td>  
   <td><input  name="name" type="text" class="form-control input-md" required="true"></td>    
 </tr>
 
@@ -52,19 +56,23 @@
 <br>
 </table>
 <input type = "submit" id = "submitbtn" value="Register"/>
+<a href = "Front page.html" id = "cancel"> Cancel </a>
 
 
 </form>
 
 
-<input type="button" name="a" value="test" id="testclick" >
+
 
 <!--
 <button class="button">LinkedIn</button>-->
 
 </div>
 
+
+
 </body>
+
 
 </html>
 
