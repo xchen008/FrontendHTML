@@ -32,7 +32,7 @@ h1{
 .backgroundinfo {
 	 background-color: white;
 	 text-align: left;
-   width: 843px;
+   width: 70%;
    padding: 20px;
    box-sizing: border-box;
    margin-top: 0px;
@@ -50,12 +50,13 @@ h1{
    position: absolute;
    left: 80px;
    top: 550px;
+   border-radius: :6px;
 }
 
 .Feedback {
    background-color: white;
    text-align: left;
-   width: 843px;
+   width: 70%;
    padding: 20px;
    float:right;
    margin-top: 20px;
