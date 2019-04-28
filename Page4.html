@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <style> ul {
   list-style-type: none;
   margin: 0;
@@ -31,6 +32,22 @@ li a:hover {
 
 <title>Main</title>
 
+<script>
+    
+        $(document).on("click",".join",function(){
+            $(".pop").css('display','block');
+            $(".overLay").css('display','block');
+
+        });
+
+        $(document).on("click",".close",function(){
+            $(this).parent().css("display","none");
+            $(".overLay").css("display","none");
+
+        });
+
+</script>
+
 </head>
 
 <body>
@@ -48,15 +65,61 @@ li a:hover {
         <div>
             <h1 id = "ProjHead"> Active Projects </h1>
         </div>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
-        <h3>Project Name: This is about abcdefghijklmnopqrstuvwxyz.</h3>
+        <div class="proj_div"> 
+            <h3>PROJECT SALT  <span class="btn-span"><button class="join btn">Join</button></span></h3>
+            <h4>Owner: <i>Huntley, James</i></h4>
+            <span class="desc"><h4>Description:</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate, purus ut posuere mollis, risus lectus placerat quam, vel euismod ligula lorem ut mi. Donec dapibus euismod elit et accumsan. Morbi elit nisi, pulvinar tristique ligula ut, luctus congue nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+        </div>    
+
+        <div class="proj_div"> 
+            <h3>PROJECT PUTZIN  <span class="btn-span"><button class="join btn">Join</button></span></h3>
+            <h4>Owner: <i>Brown, Petter</i></h4>
+            <span class="desc"><h4>Description:</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate, purus ut posuere mollis, risus lectus placerat quam, vel euismod ligula lorem ut mi. Donec dapibus euismod elit et accumsan. Morbi elit nisi, pulvinar tristique ligula ut, luctus congue nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+
+        </div>  
+
+        <div class="proj_div"> 
+            <h3>PROJECT AGATE <span class="btn-span"><button class="join btn">Join</button></span></h3>
+            <h4>Owner: <i>William, Danny</i></h4>
+            <span class="desc"><h4>Description:</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate, purus ut posuere mollis, risus lectus placerat quam, vel euismod ligula lorem ut mi. Donec dapibus euismod elit et accumsan. Morbi elit nisi, pulvinar tristique ligula ut, luctus congue nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+
+        </div>  
+
+        <div class="proj_div"> 
+            <h3>PROJECT SILICE  <span class="btn-span"><button class="join btn">Join</button></span></h3>
+            <h4>Owner: <i>Jake, Betty</i></h4>
+            <span class="desc"><h4>Description:</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate, purus ut posuere mollis, risus lectus placerat quam, vel euismod ligula lorem ut mi. Donec dapibus euismod elit et accumsan. Morbi elit nisi, pulvinar tristique ligula ut, luctus congue nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+
+        </div>  
     </section>
+
+
+        <div class="overLay">
+                <div class='pop'>
+                    <span class='close'>x</span>
+                    <span id="infoText">
+                        <h3>Message to project owner: <i>Huntley, James</i></h3>
+                        <table>
+                            <tr>
+                                <td>
+                                    <span>Message:</span></td>
+                                <td>
+                                    <span><textarea rows="3" cols="30"></textarea></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>Resume (optional):</span></td>
+                                <td>
+                                    <span><input type="file" name="uplaod" ></span>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="submit" name="submit" value="submit" />
+                    </span>
+                    </div>
+    
+        </div>    
 
     <section class = "Bootcamp">
         <div>
