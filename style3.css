@@ -14,12 +14,10 @@ h1{
   position: relative;
   left:80px 
 }
-.profile{width:380px;
-	height:310px;
-  border-radius:8px;
-	float: left;
-  position: absolute;
-  left:80px}
+.profile{    width: 300px;
+    height: 311px;
+    border-radius: 8px;
+    float: left;}
 .content1 {
   color: black;
   text-align: left;
