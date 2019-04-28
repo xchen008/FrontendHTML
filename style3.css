@@ -7,14 +7,19 @@ h1{
 }
 
 #defaultPic{
-	width:310px;
+	width:200px;
+	height:310px;
+  border-radius:8px;
+	float: left;
+  position: relative;
+  left:80px 
+}
+.profile{width:380px;
 	height:310px;
   border-radius:8px;
 	float: left;
   position: absolute;
-  left:80px 
-}
-
+  left:80px}
 .content1 {
   color: black;
   text-align: left;
