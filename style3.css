@@ -2,45 +2,84 @@ body {
   background-color: lightblue;
 }
 
-# user {
-
+h1{
+  font-size: 300%;
 }
 
-# skills {
-
-}
-
-# experience {
-
-}
-
-# events {
-
-}
-
-img {
-	width:270px;
-	height:270px;
-	border-radius:8px;
+#defaultPic{
+	width:310px;
+	height:310px;
+  border-radius:8px;
 	float: left;
+  position: absolute;
+  left:80px 
 }
 
-.content {
+.content1 {
   color: black;
   text-align: left;
-  min-width: 65%;
+  width: 85%;
   display: inline-block;
   float: left;
   padding: 30px;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 50px;
 } 
 
-
 .backgroundinfo {
-	background-color: white;
-	text-align: left;
-  	min-width: 60%;
-  	padding: 20px;
-  	float: right;
+	 background-color: white;
+	 text-align: left;
+   width: 843px;
+   padding: 20px;
+   box-sizing: border-box;
+   margin-top: 0px;
+   margin-bottom: 20px
+   margin-left: 50px;
+   float: right;
 }
+
+.bio {
+   background-color: white;
+   text-align: left;
+   min-width: 19%;
+   padding: 5px;
+   float: left;
+   position: absolute;
+   left: 80px;
+   top: 550px;
+}
+
+.Feedback {
+   background-color: white;
+   text-align: left;
+   width: 843px;
+   padding: 20px;
+   float:right;
+   margin-top: 20px;
+   margin-left: 50px;
+   box-sizing: border-box;
+
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 150px;
+
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+
+
