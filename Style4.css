@@ -62,6 +62,9 @@ body {
   background: #cf4520;
 }
 
+label{
+  font-size: 15px;
+}
 
 .overLay{
   display: none;
@@ -80,7 +83,7 @@ body {
     display: none;
     margin:0 auto;
     background: white;
-  top: 30%;
+    top: 20%;
     border: 0 !important;
     width:30%;
     max-width: 60%;
@@ -172,4 +175,9 @@ a{
   font-size:18px;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+
+#login-head{
+  font-size:30px;
 }

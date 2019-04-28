@@ -2,8 +2,9 @@
 
 <html>
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <style> ul {
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="../../public/javascripts/ajax.js"></script>
+    <style> .navigationbar{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,7 +15,6 @@
   top:0;
   width: 100%;
 }
-
 li {
   float: left;
 }
@@ -35,27 +35,12 @@ li a:hover {
 
 <title>Main</title>
 
-<script>
-    
-        $(document).on("click",".join",function(){
-            $(".pop").css('display','block');
-            $(".overLay").css('display','block');
-
-        });
-
-        $(document).on("click",".close",function(){
-            $(this).parent().css("display","none");
-            $(".overLay").css("display","none");
-
-        });
-
-</script>
 
 </head>
 
 <body>
-    <ul>
-  <li><a class="active" href="#home">Home</a></li>
+    <ul class="navigationbar">
+  <li><a class="active" href="Page4.html">Home</a></li>
   <li><a href="Page3.html">Your Profile</a></li>
   <li><a href="#contact">Build a Team</a></li>
   <li><a href="#about">About Us</a></li>

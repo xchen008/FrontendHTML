@@ -5,6 +5,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="../../public/javascripts/ajax.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style4.css">
 
 
 </head>
@@ -18,7 +19,6 @@
       background-position: relative;
        position: relative;
   			text-align:center;
-  			font-size:35px;
   			}
   			.logo1{float:right;
                width:8%;
@@ -65,7 +65,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" action="" method="post">
-                            <h3 id="login" class="text-center text-info">Login</h3>
+                            <h3 id="login-head" class="text-center text-info">Login</h3>
                             
                             <div class="form-group">
                                 <label for="username" class="text-info">Username:</label>
@@ -89,7 +89,7 @@
                             <br>
                            
                             <div id="register-link" class="text-right">
-                                <a href="signup.html" class="c">Register here</a>
+                                <a href="#" class="c" id="register">Register here</a>
                             </div>
                         </form>
                            
@@ -98,6 +98,61 @@
             </div>
          </div>
   </div>
+
+
+          <div class="overLay">
+                <div class='pop'>
+                    <span class='close'>x</span>
+                    <span id="infoText">
+                        <h3>Create New Account</h3>
+                        <form id="createUser">
+
+                        <table>
+                      <!-- Text input-->
+                      <tr>
+                        <td><label id = "name" class="text-info" for="textinput">Full Name <span>:</span> </label></td>  
+                        <td><input  name="name" type="text" class="form-control input-md" required="true"></td>    
+                      </tr>
+
+                      <!-- Text input-->
+                      <tr>
+                        <td><label class="col-md-4 control-label" for="textinput">Email<span>:</span></slabel></td>  
+                        <td><input  name="email" type="text" placeholder="" class="form-control input-md" required="true"></td>
+                      </tr>
+
+                      <tr>
+                        <td><label class="col-md-4 control-label" for="textinput">Password<span>:</span></label> </td> 
+                        <td><input  name="pass" type="Password" placeholder="" class="form-control input-md" required="true"></td>
+                      </tr>    
+
+                      <!-- Text input-->
+                      </tr>
+                        <td><label class="col-md-4 control-label" for="textinput">Phone Number<span>:</span></label></td>  
+                        <td><input  name="phone" type="text" placeholder="" class="form-control input-md" required="true"></td>
+                      </tr>
+
+                      <!-- Text input-->
+                      <tr>
+                        <td><label class="col-md-4 control-label" for="textinput">Address<span>:</span></label></td>  
+                        <td><input name="address" type="text" placeholder="" class="form-control input-md" required="true"></td>
+                      </tr>    
+
+                      <!-- Text input-->
+                      <tr>
+                        <td><label class="col-md-4 control-label" for="textinput">Github<span>:</span></label></td>  
+                        <td><input name="git" type="text" placeholder="" class="form-control input-md"></td>
+                      </tr>    
+                      <br>
+                      </table>
+                      <input type = "submit" id = "submitbtn" value="Register"/>
+                      <a href = "Front page.html" id = "cancel"> Cancel </a>
+
+
+</form>
+                    </span>
+                    </div>
+    
+        </div> 
 </body>
 
 </html>
